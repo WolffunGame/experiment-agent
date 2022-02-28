@@ -26,7 +26,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/optimizely/agent/pkg/optimizely"
+	"github.com/WolffunGame/experiment-agent/pkg/optimizely"
 
 	"github.com/optimizely/go-sdk/pkg/config"
 )

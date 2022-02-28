@@ -24,7 +24,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/optimizely/agent/plugins/interceptors"
+	"github.com/WolffunGame/experiment-agent/plugins/interceptors"
 )
 
 func TestInit(t *testing.T) {

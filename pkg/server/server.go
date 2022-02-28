@@ -27,9 +27,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/optimizely/agent/config"
-	"github.com/optimizely/agent/pkg/middleware"
-	"github.com/optimizely/agent/plugins/interceptors"
+	"github.com/WolffunGame/experiment-agent/config"
+	"github.com/WolffunGame/experiment-agent/pkg/middleware"
+	"github.com/WolffunGame/experiment-agent/plugins/interceptors"
 
 	"github.com/go-chi/render"
 	"github.com/rs/zerolog"

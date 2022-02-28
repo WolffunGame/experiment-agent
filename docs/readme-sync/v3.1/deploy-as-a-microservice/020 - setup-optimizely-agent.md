@@ -13,7 +13,7 @@ updatedAt: "2020-03-31T23:54:17.841Z"
 To develop and compile Optimizely Agent from source:
 
 1. Install  [Golang](https://golang.org/dl/)  version 1.13+ .
-2. Clone the [Optimizely Agent repo](https://github.com/optimizely/agent). 
+2. Clone the [Optimizely Agent repo](https://github.com/WolffunGame/experiment-agent). 
 3. From the repo directory, open a terminal and start Optimizely Agent:
 
 ```bash
@@ -28,9 +28,9 @@ This starts the Optimizely Agent with the default configuration in the foregroun
 
 ## Running Agent from source (Windows)
 
-You can use a [helper script](https://github.com/optimizely/agent/blob/master/scripts/build.ps1) to install prerequisites (Golang, Git) and compile agent in a Windows environment. Take these steps:
+You can use a [helper script](https://github.com/WolffunGame/experiment-agent/blob/master/scripts/build.ps1) to install prerequisites (Golang, Git) and compile agent in a Windows environment. Take these steps:
 
-1.  Clone the [Optimizely Agent repo](https://github.com/optimizely/agent)
+1.  Clone the [Optimizely Agent repo](https://github.com/WolffunGame/experiment-agent)
 2. From the repo directory, open a Powershell terminal and run 
 
 ```bash
@@ -71,5 +71,5 @@ When a new version is released, 2 images are pushed to dockerhub. They are disti
 - :alpine (same as :X.Y.Z-alpine)
 
 The difference between latest and alpine is that latest is built `FROM scratch` while alpine is `FROM alpine`.
-- [latest Dockerfile](https://github.com/optimizely/agent/blob/master/scripts/dockerfiles/Dockerfile.static)
-- [alpine Dockerfile](https://github.com/optimizely/agent/blob/master/scripts/dockerfiles/Dockerfile.alpine)
+- [latest Dockerfile](https://github.com/WolffunGame/experiment-agent/blob/master/scripts/dockerfiles/Dockerfile.static)
+- [alpine Dockerfile](https://github.com/WolffunGame/experiment-agent/blob/master/scripts/dockerfiles/Dockerfile.alpine)

@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/optimizely/agent/pkg/middleware"
-	"github.com/optimizely/agent/pkg/optimizely"
+	"github.com/WolffunGame/experiment-agent/pkg/middleware"
+	"github.com/WolffunGame/experiment-agent/pkg/optimizely"
 
 	"github.com/optimizely/go-sdk/pkg/config"
 	"github.com/optimizely/go-sdk/pkg/entities"

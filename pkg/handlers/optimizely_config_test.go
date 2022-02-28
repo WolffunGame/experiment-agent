@@ -11,9 +11,9 @@ import (
 	"github.com/optimizely/go-sdk/pkg/config"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/optimizely/agent/pkg/middleware"
-	"github.com/optimizely/agent/pkg/optimizely"
-	"github.com/optimizely/agent/pkg/optimizely/optimizelytest"
+	"github.com/WolffunGame/experiment-agent/pkg/middleware"
+	"github.com/WolffunGame/experiment-agent/pkg/optimizely"
+	"github.com/WolffunGame/experiment-agent/pkg/optimizely/optimizelytest"
 )
 
 type OptimizelyConfigTestSuite struct {

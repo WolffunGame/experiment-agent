@@ -23,7 +23,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/optimizely/agent/config"
+	"github.com/WolffunGame/experiment-agent/config"
 
 	"github.com/rs/zerolog/log"
 	"golang.org/x/sync/errgroup"

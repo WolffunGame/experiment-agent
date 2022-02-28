@@ -25,7 +25,7 @@ import (
 
 	"github.com/go-chi/render"
 
-	"github.com/optimizely/agent/config"
+	"github.com/WolffunGame/experiment-agent/config"
 )
 
 var startTime = time.Now()

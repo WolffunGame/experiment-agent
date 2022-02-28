@@ -25,8 +25,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/optimizely/agent/config"
-	"github.com/optimizely/agent/plugins/interceptors"
+	"github.com/WolffunGame/experiment-agent/config"
+	"github.com/WolffunGame/experiment-agent/plugins/interceptors"
 
 	"github.com/stretchr/testify/assert"
 )

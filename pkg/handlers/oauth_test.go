@@ -19,8 +19,8 @@ package handlers
 
 import (
 	"encoding/json"
+	"github.com/WolffunGame/experiment-agent/config"
 	"github.com/go-chi/chi"
-	"github.com/optimizely/agent/config"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 	"net/http"

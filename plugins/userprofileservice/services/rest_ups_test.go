@@ -23,8 +23,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/WolffunGame/experiment-agent/pkg/handlers"
 	"github.com/go-chi/render"
-	"github.com/optimizely/agent/pkg/handlers"
 	"github.com/optimizely/go-sdk/pkg/decision"
 	"github.com/optimizely/go-sdk/pkg/logging"
 	"github.com/optimizely/go-sdk/pkg/utils"

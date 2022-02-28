@@ -18,14 +18,14 @@
 package routers
 
 import (
-	"github.com/optimizely/agent/config"
-	"github.com/optimizely/agent/pkg/handlers"
+	"github.com/WolffunGame/experiment-agent/config"
+	"github.com/WolffunGame/experiment-agent/pkg/handlers"
 
 	"github.com/go-chi/chi"
 	chimw "github.com/go-chi/chi/middleware"
 	"github.com/go-chi/render"
 
-	"github.com/optimizely/agent/pkg/optimizely"
+	"github.com/WolffunGame/experiment-agent/pkg/optimizely"
 )
 
 // NewWebhookRouter returns HTTP API router

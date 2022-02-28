@@ -23,7 +23,7 @@ import (
 	"github.com/go-chi/httplog"
 	"github.com/rs/zerolog/log"
 
-	"github.com/optimizely/agent/plugins/interceptors"
+	"github.com/WolffunGame/experiment-agent/plugins/interceptors"
 )
 
 type httpLog struct{}

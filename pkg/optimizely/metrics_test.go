@@ -23,7 +23,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/optimizely/agent/pkg/metrics"
+	"github.com/WolffunGame/experiment-agent/pkg/metrics"
 
 	"github.com/stretchr/testify/assert"
 )

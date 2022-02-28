@@ -25,8 +25,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/optimizely/agent/config"
-	"github.com/optimizely/agent/plugins/userprofileservice"
+	"github.com/WolffunGame/experiment-agent/config"
+	"github.com/WolffunGame/experiment-agent/plugins/userprofileservice"
 	"github.com/optimizely/go-sdk/pkg/client"
 	sdkconfig "github.com/optimizely/go-sdk/pkg/config"
 	"github.com/optimizely/go-sdk/pkg/decision"

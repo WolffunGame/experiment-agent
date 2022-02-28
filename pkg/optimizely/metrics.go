@@ -18,7 +18,7 @@
 package optimizely
 
 import (
-	"github.com/optimizely/agent/pkg/metrics"
+	"github.com/WolffunGame/experiment-agent/pkg/metrics"
 	go_sdk_metrics "github.com/optimizely/go-sdk/pkg/metrics"
 )
 

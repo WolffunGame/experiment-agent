@@ -24,7 +24,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/optimizely/agent/pkg/optimizely"
+	"github.com/WolffunGame/experiment-agent/pkg/optimizely"
 )
 
 type contextKey string

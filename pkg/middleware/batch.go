@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/optimizely/agent/config"
+	"github.com/WolffunGame/experiment-agent/config"
 
 	"github.com/go-chi/render"
 	"golang.org/x/sync/errgroup"

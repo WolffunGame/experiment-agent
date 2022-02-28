@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/optimizely/agent/config"
-	"github.com/optimizely/agent/pkg/optimizely"
+	"github.com/WolffunGame/experiment-agent/config"
+	"github.com/WolffunGame/experiment-agent/pkg/optimizely"
 
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"

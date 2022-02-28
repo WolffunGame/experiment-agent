@@ -22,9 +22,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/optimizely/agent/config"
-	"github.com/optimizely/agent/pkg/jwtauth"
-	"github.com/optimizely/agent/pkg/middleware"
+	"github.com/WolffunGame/experiment-agent/config"
+	"github.com/WolffunGame/experiment-agent/pkg/jwtauth"
+	"github.com/WolffunGame/experiment-agent/pkg/middleware"
 
 	"github.com/go-chi/render"
 	"github.com/rs/zerolog/log"

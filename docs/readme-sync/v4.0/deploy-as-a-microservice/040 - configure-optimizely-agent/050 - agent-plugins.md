@@ -15,11 +15,11 @@ Optimizely Agent can be extended through the use of plugins. Plugins are distinc
 
 ### Interceptor Plugins
 
-Interceptors can be added to Agent to customize the request and/or response by implementing the [Interceptor](https://github.com/optimizely/agent/tree/master/plugins/interceptors/registry.go) interface.
+Interceptors can be added to Agent to customize the request and/or response by implementing the [Interceptor](https://github.com/WolffunGame/experiment-agent/tree/master/plugins/interceptors/registry.go) interface.
 This interface defines a `Handler()` method that returns a standard net/http middleware handler based on [http.Handler](https://golang.org/pkg/net/http/#Handler).
 The interceptor struct can also include a set of fields that can be configured via `config.yaml`.
 
-* [httplog](https://github.com/optimizely/agent/tree/master/plugins/interceptors/httplog) - Adds HTTP request logging based on [go-chi/httplog](https://github.com/go-chi/httplog).
+* [httplog](https://github.com/WolffunGame/experiment-agent/tree/master/plugins/interceptors/httplog) - Adds HTTP request logging based on [go-chi/httplog](https://github.com/go-chi/httplog).
 
 ### Example Interceptor definition
 ```go
@@ -29,7 +29,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/optimizely/agent/plugins/interceptors"
+	"github.com/WolffunGame/experiment-agent/plugins/interceptors"
 )
 
 // Example implements the Interceptor plugin interface
@@ -71,7 +71,7 @@ package all
 
 // Add imports here to trigger the plugin `init()` function
 import (
-    _ "github.com/optimizely/agent/plugins/interceptors/example"
+    _ "github.com/WolffunGame/experiment-agent/plugins/interceptors/example"
 )
 ```
 

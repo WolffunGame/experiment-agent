@@ -23,12 +23,12 @@ import (
 	"github.com/rakyll/statik/fs"
 	"github.com/rs/zerolog/log"
 
-	"github.com/optimizely/agent/config"
-	"github.com/optimizely/agent/pkg/handlers"
-	"github.com/optimizely/agent/pkg/metrics"
-	"github.com/optimizely/agent/pkg/middleware"
-	"github.com/optimizely/agent/pkg/optimizely"
-	_ "github.com/optimizely/agent/statik" // Required to serve openapi.yaml
+	"github.com/WolffunGame/experiment-agent/config"
+	"github.com/WolffunGame/experiment-agent/pkg/handlers"
+	"github.com/WolffunGame/experiment-agent/pkg/metrics"
+	"github.com/WolffunGame/experiment-agent/pkg/middleware"
+	"github.com/WolffunGame/experiment-agent/pkg/optimizely"
+	_ "github.com/WolffunGame/experiment-agent/statik" // Required to serve openapi.yaml
 
 	"github.com/go-chi/chi"
 	chimw "github.com/go-chi/chi/middleware"

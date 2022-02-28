@@ -25,7 +25,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/optimizely/agent/config"
+	"github.com/WolffunGame/experiment-agent/config"
 )
 
 var testConfig = config.AgentConfig{

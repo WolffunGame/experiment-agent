@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/optimizely/agent/pkg/metrics"
+	"github.com/WolffunGame/experiment-agent/pkg/metrics"
 )
 
 type contextString string

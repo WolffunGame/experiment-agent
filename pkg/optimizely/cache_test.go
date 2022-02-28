@@ -28,15 +28,15 @@ import (
 	"github.com/optimizely/go-sdk/pkg/decision"
 	"github.com/optimizely/go-sdk/pkg/event"
 
-	"github.com/optimizely/agent/config"
-	"github.com/optimizely/agent/pkg/metrics"
-	"github.com/optimizely/agent/pkg/optimizely/optimizelytest"
-	"github.com/optimizely/agent/plugins/userprofileservice"
+	"github.com/WolffunGame/experiment-agent/config"
+	"github.com/WolffunGame/experiment-agent/pkg/metrics"
+	"github.com/WolffunGame/experiment-agent/pkg/optimizely/optimizelytest"
+	"github.com/WolffunGame/experiment-agent/plugins/userprofileservice"
 
 	cmap "github.com/orcaman/concurrent-map"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/optimizely/agent/plugins/userprofileservice/services"
+	"github.com/WolffunGame/experiment-agent/plugins/userprofileservice/services"
 )
 
 var counter int

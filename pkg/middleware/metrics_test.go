@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/optimizely/agent/pkg/metrics"
+	"github.com/WolffunGame/experiment-agent/pkg/metrics"
 
 	"github.com/stretchr/testify/suite"
 )

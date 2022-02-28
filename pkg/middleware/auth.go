@@ -25,8 +25,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/optimizely/agent/config"
-	"github.com/optimizely/agent/pkg/jwtauth"
+	"github.com/WolffunGame/experiment-agent/config"
+	"github.com/WolffunGame/experiment-agent/pkg/jwtauth"
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/lestrrat-go/jwx/jwk"

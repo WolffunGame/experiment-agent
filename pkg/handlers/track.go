@@ -24,7 +24,7 @@ import (
 	"github.com/go-chi/render"
 	"github.com/optimizely/go-sdk/pkg/entities"
 
-	"github.com/optimizely/agent/pkg/middleware"
+	"github.com/WolffunGame/experiment-agent/pkg/middleware"
 )
 
 type trackBody struct {

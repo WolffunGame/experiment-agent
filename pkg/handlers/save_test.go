@@ -28,10 +28,10 @@ import (
 	"github.com/go-chi/chi"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/optimizely/agent/pkg/middleware"
-	"github.com/optimizely/agent/pkg/optimizely"
-	"github.com/optimizely/agent/pkg/optimizely/optimizelytest"
-	userprofileservices "github.com/optimizely/agent/plugins/userprofileservice/services"
+	"github.com/WolffunGame/experiment-agent/pkg/middleware"
+	"github.com/WolffunGame/experiment-agent/pkg/optimizely"
+	"github.com/WolffunGame/experiment-agent/pkg/optimizely/optimizelytest"
+	userprofileservices "github.com/WolffunGame/experiment-agent/plugins/userprofileservice/services"
 	"github.com/optimizely/go-sdk/pkg/decision"
 )
 

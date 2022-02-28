@@ -1,4 +1,4 @@
-module github.com/optimizely/agent
+module github.com/WolffunGame/experiment-agent
 
 go 1.13
 

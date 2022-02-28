@@ -25,7 +25,7 @@ import (
 
 	"github.com/go-chi/render"
 
-	"github.com/optimizely/agent/pkg/middleware"
+	"github.com/WolffunGame/experiment-agent/pkg/middleware"
 )
 
 // ErrorResponse Model

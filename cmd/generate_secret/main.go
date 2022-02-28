@@ -22,7 +22,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/optimizely/agent/pkg/jwtauth"
+	"github.com/WolffunGame/experiment-agent/pkg/jwtauth"
 )
 
 func main() {

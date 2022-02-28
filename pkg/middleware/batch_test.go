@@ -25,7 +25,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/optimizely/agent/config"
+	"github.com/WolffunGame/experiment-agent/config"
 
 	"github.com/stretchr/testify/suite"
 )

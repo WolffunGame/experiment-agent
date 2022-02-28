@@ -30,17 +30,17 @@ import (
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/viper"
 
-	"github.com/optimizely/agent/config"
-	"github.com/optimizely/agent/pkg/metrics"
-	"github.com/optimizely/agent/pkg/optimizely"
-	"github.com/optimizely/agent/pkg/routers"
-	"github.com/optimizely/agent/pkg/server"
+	"github.com/WolffunGame/experiment-agent/config"
+	"github.com/WolffunGame/experiment-agent/pkg/metrics"
+	"github.com/WolffunGame/experiment-agent/pkg/optimizely"
+	"github.com/WolffunGame/experiment-agent/pkg/routers"
+	"github.com/WolffunGame/experiment-agent/pkg/server"
 
 	// Initiate the loading of the interceptor plugins
-	_ "github.com/optimizely/agent/plugins/interceptors/all"
+	_ "github.com/WolffunGame/experiment-agent/plugins/interceptors/all"
 
 	// Initiate the loading of the userprofileservice plugins
-	_ "github.com/optimizely/agent/plugins/userprofileservice/all"
+	_ "github.com/WolffunGame/experiment-agent/plugins/userprofileservice/all"
 	"github.com/optimizely/go-sdk/pkg/logging"
 )
 

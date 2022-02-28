@@ -19,5 +19,5 @@ package all
 
 import (
 	// Register the plugin middleware
-	_ "github.com/optimizely/agent/plugins/interceptors/httplog"
+	_ "github.com/WolffunGame/experiment-agent/plugins/interceptors/httplog"
 )

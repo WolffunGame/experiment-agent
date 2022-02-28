@@ -6,18 +6,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [2.6.0] - Jan 13, 2022
 
-- Introduce `Forced Decisions` property into the `decide` API for overriding and managing user-level flag, experiment and delivery rule decisions. Forced decisions can be used for QA and automated testing purposes ([#324](https://github.com/optimizely/agent/pull/324), [#325](https://github.com/optimizely/agent/pull/325)).
+- Introduce `Forced Decisions` property into the `decide` API for overriding and managing user-level flag, experiment and delivery rule decisions. Forced decisions can be used for QA and automated testing purposes ([#324](https://github.com/WolffunGame/experiment-agent/pull/324), [#325](https://github.com/WolffunGame/experiment-agent/pull/325)).
 
     - For details, refer to our API documentation page: https://library.optimizely.com/docs/api/agent/v1/index.html#operation/decide.  
     - Upgrade to use [Go SDK v1.8.0](https://github.com/optimizely/go-sdk/releases/tag/v1.8.0). This adds support for Forced Decisions.
 
 ## [2.5.0] - Sep 24, 2021
 
-  - Add new fields (sdkKey, environmentKey, attributes, audiences, events, experimentRules, deliveryRules) to `/config` endpoint ([PR #322](https://github.com/optimizely/agent/pull/322)):  
+  - Add new fields (sdkKey, environmentKey, attributes, audiences, events, experimentRules, deliveryRules) to `/config` endpoint ([PR #322](https://github.com/WolffunGame/experiment-agent/pull/322)):  
 
 ## [2.4.0] - March 3, 2021
 ## New Features
-- Introduce `/decide` endpoint as a new primary interface for Decide APIs, that is for retrieving feature flag status, configuration and associated experiment decisions for users ([#292](https://github.com/optimizely/agent/pull/292)).   
+- Introduce `/decide` endpoint as a new primary interface for Decide APIs, that is for retrieving feature flag status, configuration and associated experiment decisions for users ([#292](https://github.com/WolffunGame/experiment-agent/pull/292)).   
 
 - For details about this Agent release, refer to our documentation page: https://docs.developers.optimizely.com/full-stack/v4.0/docs/optimizely-agent.  
 Upgrade to use [Go SDK v1.6.1](https://github.com/optimizely/go-sdk/tree/v1.6.1). This adds support for OptimizelyDecision.

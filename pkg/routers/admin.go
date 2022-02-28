@@ -21,9 +21,9 @@ import (
 	"net/http"
 	"net/http/pprof"
 
-	"github.com/optimizely/agent/config"
-	"github.com/optimizely/agent/pkg/handlers"
-	"github.com/optimizely/agent/pkg/middleware"
+	"github.com/WolffunGame/experiment-agent/config"
+	"github.com/WolffunGame/experiment-agent/pkg/handlers"
+	"github.com/WolffunGame/experiment-agent/pkg/middleware"
 
 	"github.com/go-chi/chi"
 	chimw "github.com/go-chi/chi/middleware"

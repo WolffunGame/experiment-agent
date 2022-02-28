@@ -20,5 +20,5 @@ package all
 import (
 	// Register your userProfileService here if it is created outside the userprofileservice/services package
 	// Also, make sure your UPS calls `userprofileservice.Add()` in its init() method
-	_ "github.com/optimizely/agent/plugins/userprofileservice/services"
+	_ "github.com/WolffunGame/experiment-agent/plugins/userprofileservice/services"
 )

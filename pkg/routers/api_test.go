@@ -27,10 +27,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/optimizely/agent/config"
-	"github.com/optimizely/agent/pkg/metrics"
-	"github.com/optimizely/agent/pkg/optimizely"
-	"github.com/optimizely/agent/pkg/optimizely/optimizelytest"
+	"github.com/WolffunGame/experiment-agent/config"
+	"github.com/WolffunGame/experiment-agent/pkg/metrics"
+	"github.com/WolffunGame/experiment-agent/pkg/optimizely"
+	"github.com/WolffunGame/experiment-agent/pkg/optimizely/optimizelytest"
 )
 
 var metricsRegistry = metrics.NewRegistry()

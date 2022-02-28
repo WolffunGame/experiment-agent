@@ -12,7 +12,7 @@ Optimizely Agent implements a  webhook listener used to receive inbound [Webhook
 The webhook listener is configured on its own port (default: 8085) since it can be configured to select traffic from the internet.
 
 To accept webhook requests Agent must be configured by mapping an Optimizely Project Id to a set of SDK keys along
-with the associated secret used for validating the inbound request. An example webhook configuration can be seen below, while the full example configuration can be found in the the provided [config.yaml](https://github.com/optimizely/agent/blob/master/config.yaml#L58).
+with the associated secret used for validating the inbound request. An example webhook configuration can be seen below, while the full example configuration can be found in the the provided [config.yaml](https://github.com/WolffunGame/experiment-agent/blob/master/config.yaml#L58).
 
 ```yaml
 ##

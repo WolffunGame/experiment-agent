@@ -20,7 +20,7 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/optimizely/agent/pkg/middleware"
+	"github.com/WolffunGame/experiment-agent/pkg/middleware"
 
 	"github.com/optimizely/go-sdk/pkg/client"
 	"github.com/optimizely/go-sdk/pkg/decide"

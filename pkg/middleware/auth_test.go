@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/optimizely/agent/config"
+	"github.com/WolffunGame/experiment-agent/config"
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/stretchr/testify/assert"

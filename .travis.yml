@@ -219,7 +219,7 @@ jobs:
       before_script: skip
 
       script:
-        - SLACK_TEXT="${APP_VERSION} all assets verified. Publishing https://github.com/optimizely/agent/releases/tag/${TRAVIS_TAG}" send_to_slack.sh
+        - SLACK_TEXT="${APP_VERSION} all assets verified. Publishing https://github.com/WolffunGame/experiment-agent/releases/tag/${TRAVIS_TAG}" send_to_slack.sh
         # how to use hub: https://hub.github.com/hub.1.html
         - hub release edit --draft=false -m "" ${TRAVIS_TAG}
 

@@ -23,7 +23,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/optimizely/agent/pkg/middleware"
+	"github.com/WolffunGame/experiment-agent/pkg/middleware"
 	"github.com/optimizely/go-sdk/pkg/notification"
 	"github.com/optimizely/go-sdk/pkg/registry"
 )

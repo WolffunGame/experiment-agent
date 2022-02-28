@@ -54,4 +54,4 @@ curl -N -H "Accept:text/event-stream" -H "X-Optimizely-Sdk-Key:<YOUR SDK KEY>"\
 
 ## Example
 
-For a runnable Python example, see [examples/notifications.py](https://github.com/optimizely/agent/tree/master/examples).
+For a runnable Python example, see [examples/notifications.py](https://github.com/WolffunGame/experiment-agent/tree/master/examples).
