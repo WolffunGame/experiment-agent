@@ -1,0 +1,7 @@
+**/.git
+**/.dockerignore
+**/scripts/dockerfiles/Dockerfile.alpine
+**/Dockerfile
+**/.gitignore
+**/.github
+**/k8s
