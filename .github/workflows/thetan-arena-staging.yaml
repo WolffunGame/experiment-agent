@@ -16,7 +16,7 @@ env:
   WORKLOAD_IDENTITY_PROVIDER: projects/911077854090/locations/global/workloadIdentityPools/github-actions/providers/github-oidc
   SERVICE_ACCOUNT: github@thetan-staging.iam.gserviceaccount.com
   HELM_VERSION: 3.8.0
-  HELM_CHART_VERSION: 0.6.0
+  HELM_CHART_VERSION: 2.0.0
 
 jobs:
   setup-build-publish-deploy:
@@ -76,6 +76,7 @@ jobs:
           --set image.name=${IMAGE_NAME} \
           --set image.tag=${IMAGE_TAG} \
           --values thetan-arena-staging.yaml \
+          --version ${HELM_CHART_VERSION} \
           experiment-agent oci://${AR_URL}/${PROJECT_ID}/helm-charts/wolffun-service
       env:
         IMAGE_REPOSITORY: ${{ env.AR_URL }}/${{ env.PROJECT_ID }}/${{ env.AR_REPOSITORY_NAME }}/
