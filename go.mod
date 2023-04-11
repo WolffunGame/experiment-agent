@@ -1,4 +1,4 @@
-module github.com/WolffunGame/experiment-agent
+module github.com/WolffunService/experiment-agent
 
 go 1.13
 
